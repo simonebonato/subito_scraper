@@ -32,10 +32,10 @@ def refresh():
             run_query(query_url, search[0])
 
 def send_mail(message):
-    sender_address = 'simonebonato99@gmail.com'
-    password = 'messicano'
+    sender_address = ''
+    password = ''
 
-    receiver_address = 'simonebonato99@gmail.com'
+    receiver_address = ''
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
